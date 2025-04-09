@@ -1,0 +1,270 @@
+body {
+    background: url("imagens/background.jpg");
+    width: 100%;
+    height: auto;
+    
+}
+.MainFrame {
+    display: flex;
+    font-family: 'Arial';
+    background-color: gray;
+    flex-direction: row;
+    border-radius: 3px;
+    justify-content: space-between;
+    padding-bottom: 0.5cm;
+    opacity: 0.4;
+}
+
+.BackgroundImage {
+    object-fit: contain;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.ElementLogo {
+    margin: 1cm;    
+    color: aliceblue;
+}
+
+.LogoSubtext {
+    color: aliceblue;
+    margin-left: 1.2cm;
+    margin-top: -1.2cm;
+}
+
+.HomeList{
+    padding-right: 0.5cm;
+}
+
+ul.List {
+    display: flex;
+    list-style-type: none;
+    margin-top: 1cm;
+    margin-left: 5cm;
+}
+
+.ElementList {
+    background-color: gray;
+    color: white;
+    padding-left: 0.5cm;
+    font-size: 18px;
+    padding-right: 20px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.ElementList:hover{
+    transition: 500ms;
+    background-color: aliceblue;
+    color: black;
+}
+.MainFrameDestaque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+        position: relative;
+        right: 8cm;
+        color: aliceblue;
+        background: gray;
+        border: 1px solid gray;
+        border-radius: 3px;
+        width: fit-content;
+        margin-top: 1cm;
+        box-shadow: 3px 1px 3px 3px grey;
+
+    }
+}
+
+.FrameDestaque{
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.MainElementDestaque {
+    height: 45%;
+    width: 45%;   
+    border: 10px solid gray;
+    border-radius: 3px;
+    box-shadow: 3px 1px 3px 3px lightgray;
+    margin: 10px;
+}
+
+.MainDestaqueEspec{
+    background-color: Gray;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 6px;
+    box-shadow: 3px 1px 3px 3px lightgray;
+
+}
+
+.TextDestaqueEspec {
+    color: white;
+    h3 {
+        background-color: rgb(31, 28, 28);
+        Color: white;
+        border-radius: 3px;
+        box-shadow: 2px 2px black;
+    }
+}
+
+.IconeEspec {
+    width: 25px;
+    height: 25px;
+    margin: 3px;
+}
+
+.CardRecomendados {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid gray;
+    border-radius: 3px;
+    background-color: gray;
+    color: white;
+    margin-top: 0.2cm;
+    box-shadow: 3px 1px 3px 3px lightgray;
+    img {
+        width: 150px;
+        height: auto;
+    }
+}
+
+.CardText {
+    display: flex;
+    flex-direction: column;
+    a {
+        text-decoration: none;
+        color: white;
+        margin: 0.2cm;
+    }
+
+    a:hover{
+        transition: 300ms;
+        color: black;
+    }
+}
+
+.Icon {
+    display: flex;
+    flex: column;
+}
+
+.IconRec {
+    margin-top: -0.1cm;
+    img {
+        margin-left: 0.2cm;
+        margin-right: -0.1cm;
+        height: 20px;
+        width: 20px;
+    }
+    
+    a {
+        font-size: 10px;
+    }
+}
+
+.CardRecomendados:hover {
+    transition: 200ms;
+
+
+    .IconRec {
+        transition: 200ms;
+        a {
+            transition: 200ms;
+        }
+    }
+}
+
+@keyframes piscar {
+    0%, 100% {
+      box-shadow: 0px 0px 5px 5px lightblue;
+    }
+    50% {
+        box-shadow: 2px 2px 0px 0px lightblue;    }
+  }
+  
+
+.FrameIndefinido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.FrameCards {
+    display: flex;
+    justify-content: center;
+}
+
+.CardCat {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 5;
+    box-shadow:3px 1px 3px 3px gray;
+    margin: 20px;
+    width: 200px;
+    height: 150px;
+    align-items: center;
+}
+
+.CardCat:hover {
+    transition: 200ms;
+    animation: piscar 2s infinite;
+}
+
+.CardImage {
+    img {
+        width: 150px;
+        height: auto;
+    }
+}
+
+.MainFrameAccordion {   
+    margin: 1.5cm;
+    justify-self: center;
+    box-shadow:1px 1px 8px 1px grey;
+    background-color: white;
+}
+
+.AccordionFrame {
+    display: inherit;
+    width: 900px;
+    height: auto;
+    margin: 0.2cm;
+    margin-bottom: 0.1cm;
+
+}
+
+.accordion-body {
+    color: gray;
+}
+
+.FrameMapa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Mapa {
+    background-color: gray;
+    border: 8px solid white;
+    border-radius: 3px;
+    box-shadow:1px 1px 3px 3px grey;
+    margin-bottom: 0.5cm;
+}
+
+.Rodape {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    width: 100%;
+    color: white;
+}
+
